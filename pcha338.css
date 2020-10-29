@@ -1,0 +1,124 @@
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#image {
+  float: left;
+  width: 20px;
+  height: 10px;
+  padding-left: 10px;
+  padding-top: 50px;
+  }
+.item {
+  padding: 30;
+}
+
+.display-image {
+  height:250px;
+  padding: 30;
+}
+
+.display-title {
+    margin: 3vw 3vw 0.5vw 3vw;
+}
+
+.navigation { 
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+}
+
+p {
+  border: 2px solid #0066FF;  
+  padding: 5px;  
+  text-indent:1em;  
+  text-align:justify;
+  font-size:+16; 
+}
+
+.comment {
+  padding-left: 10px;
+  border: 3px solid black;
+}
+
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+body { 
+  margin: 0;
+  background-color: #eee;
+  
+}
+
+.jumbotron { 
+  padding: 30px; /* fills out the jumbotron */
+  background-color: #111;
+  display: flex;
+
+}
+
+.container {
+  width: 1170px; /* specify a width */
+  margin: 0 auto;  /* centers the container */
+  padding: 0 15px; /* adds some padding to the left and right*/
+}
+
+.jumbotron .container { 
+  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
+  background-color: #222;
+}
+
+.jumbotron h1 { 
+  text-align: center; /* centers the heading */
+  color: #DDD;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  
+}
+
+#searchbar {
+  width: 50%;
+  height: 20px;
+  position: relative;
+  display: flex;
+
+}
+#logo {
+  filter: invert(100%);
+}
+
+.title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* BASIC */
+
+
+a {
+  color: #92badd;
+  display:inline-block;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
+  color:black;
+}
+
+
